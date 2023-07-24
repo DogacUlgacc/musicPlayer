@@ -158,4 +158,9 @@ volumeIcon.addEventListener("click", () => {
             volumeIcon.classList.add("fa-volume-low");
         }
     }
+}); 
+
+audio.addEventListener("ended", () => {
+    nextMusic();
 });
+
